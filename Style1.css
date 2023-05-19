@@ -1,0 +1,52 @@
+.cabecalho{
+    width: 600px;
+    padding: 10px;
+    background-color: black;
+    font-size: 14px;
+    margin: 2px;
+    text-align: left;
+    display: flex;
+    color: white;
+}
+
+.Corpo{
+    display: flex;
+    width: 600px;
+    padding: 10px;
+    background-color: red;
+    font-size: 20px;
+    text-align: center;
+    color: yellow;
+}
+
+.rodape{
+    display: flex;
+    width: 600px;
+    padding: 10px;
+    background-color: yellow;
+    font-size: 20px;
+    text-align: right;
+    color: red;
+}
+
+.fome {
+    font-style: oblique;
+    color: darkred;
+    font-size: larger
+}
+
+.Tristeza {
+    font-style: italic;
+    color: slategray;
+    font-size: medium;
+}
+
+.motivos_titulo {
+    font-style: oblique;
+    color: blueviolet;
+}
+
+.motivos_texto {
+    font-style: normal;
+    color: darkmagenta;
+}
