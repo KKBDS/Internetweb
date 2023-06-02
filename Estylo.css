@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+}
+
+.cabecalho{
+    font-size: xx-large;
+    color: darkred;
+    background-color: #363636;
+}
+
+a{
+    color: darkgoldenrod;
+    text-decoration: none;
+}
+
+a :hover{
+    color: red;
+}
+
+.jogosps2{
+    width: 800px;
+}
+
+.rodape{
+    color: blue;
+    position: fixed;
+    bottom: 0px;
+    padding-left: 50%;
+    padding-right: 50%;
+    background-color: gray;
+}
