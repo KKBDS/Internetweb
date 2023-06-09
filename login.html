@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+        <head>
+            <title>Login</title>
+            <meta charset="UTF-8">
+            <link rel="stylesheet" type="text/css" href="Estylo.css">
+        </head>
+        <body>
+
+            <header>
+                <a href="#" class="abrirbutao" onclick="abrirMenu()">&#9776;</a>
+            </header>
+
+            
+            <nav id="menuzinho">
+            <div class="corpo">
+                <a href="#" onclick="fecharMenu()"><h2>&times;</h2></a>
+                <a href="indexka.html"><h2>Menu Principal</h2></a>
+                <a href="cadastro.html"><h2>Cadastro</h2></a>
+                <a href="Produto.html"><h2>Produtos</h2></a>
+                <a href="login.html"><h2>Login</h2></a>
+            </div>
+        </nav>
+
+        <script>
+            function abrirMenu(){
+                document.getElementById('menuzinho').style.width='250px';
+                document.getElementById('conteudo').style.marginLeft='250px';
+            }
+
+            function fecharMenu(){
+                document.getElementById('menuzinho').style.width='0px';
+                document.getElementById('conteudo').style.marginLeft='0px';
+            }
+        </script>
+
+        <main id="conteudo">
+            <div class="cabecalho"><img src="ps2.png"><h2>Logar na loja</h2></div>
+
+            <div class="cadastroinfo">
+                <div class="cadastroinfo2">
+                    <form><h2>Login:</h2>
+                    Digite seu Email:<br><input type="email" class="textocadastro" placeholder="Email"size="30"><br>
+                    Digite sua Senha:<br><input type="password" class="textocadastro" placeholder="Senha"size="30"><br>
+                    <a href="#">Esqueci a senha</a>
+                    <input type="button" value="Acessar" class="btn">
+                    <p>Ainda não tem uma conta na loja?<a href="cadastro.html">Clique aqui</a></p>
+                </form>
+            </div>
+        </div>
+
+            <div class= "rodape">@karllonkeysson</div>
+        </main>    
+
+        </body>
+        

@@ -1,26 +1,56 @@
 <!DOCTYPE html>
     <html lang="pt-br">
         <head>
-            <title></title>
+            <title>Cadastro da Loja</title>
             <meta charset="UTF-8">
             <link rel="stylesheet" type="text/css" href="Estylo.css">
         </head>
         <body>
-            <div class="cabecalho"><img src="ps2.png">Loja PS2</div>
 
+            <header>
+                <a href="#" class="abrirbutao" onclick="abrirMenu()">&#9776;</a>
+            </header>
+
+            
+            <nav id="menuzinho">
             <div class="corpo">
+                <a href="#" onclick="fecharMenu()"><h2>&times;</h2></a>
                 <a href="indexka.html"><h2>Menu Principal</h2></a>
                 <a href="cadastro.html"><h2>Cadastro</h2></a>
-                <a href="Produto.html"><h2>Produto</h2></a>
+                <a href="Produto.html"><h2>Produtos</h2></a>
                 <a href="login.html"><h2>Login</h2></a>
             </div>
-            
-            <div>
-                <input type="text" size="30">
-            </div>
+        </nav>
 
-            <br>
-            <center><div class= "rodape">@karllonkeysson</div></center>
+        <script>
+            function abrirMenu(){
+                document.getElementById('menuzinho').style.width='250px';
+                document.getElementById('conteudo').style.marginLeft='250px';
+            }
+
+            function fecharMenu(){
+                document.getElementById('menuzinho').style.width='0px';
+                document.getElementById('conteudo').style.marginLeft='0px';
+            }
+        </script>
+
+        <main id="conteudo">
+            <div class="cabecalho"><img src="ps2.png"><h2>Cadastro Loja</h2></div>
+
+            <div class="cadastroinfo">
+                <div class="cadastroinfo2">
+                    <form><h2>Cadastro:</h2>
+                    Digite seu Email:<br><input type="email" class="textocadastro" placeholder="Email"size="30"><br>
+                    Digite sua Senha:<br><input type="password" class="textocadastro" placeholder="Senha"size="30"><br>
+                    Comfirme sua Senha:<br><input type="password" class="textocadastro" placeholder="Senha"size="30"><br>
+                    <input type="button" value="Cadastrar" class="btn">
+                    <p>Já tem uma conta na loja?<a href="login.html">Clique aqui</a></p>
+                </form>
+            </div>
+        </div>
+
+            <div class= "rodape">@karllonkeysson</div>
+        </main>    
 
         </body>
         

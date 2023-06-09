@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+        <head>
+            <title>Produtos</title>
+            <meta charset="UTF-8">
+            <link rel="stylesheet" type="text/css" href="Estylo.css">
+        </head>
+        <body>
+
+            <header>
+                <a href="#" class="abrirbutao" onclick="abrirMenu()">&#9776;</a>
+            </header>
+
+            
+            <nav id="menuzinho">
+            <div class="corpo">
+                <a href="#" onclick="fecharMenu()"><h2>&times;</h2></a>
+                <a href="indexka.html"><h2>Menu Principal</h2></a>
+                <a href="cadastro.html"><h2>Cadastro</h2></a>
+                <a href="Produto.html"><h2>Produtos</h2></a>
+                <a href="login.html"><h2>Login</h2></a>
+            </div>
+        </nav>
+
+        <script>
+            function abrirMenu(){
+                document.getElementById('menuzinho').style.width='250px';
+                document.getElementById('conteudo').style.marginLeft='250px';
+            }
+
+            function fecharMenu(){
+                document.getElementById('menuzinho').style.width='0px';
+                document.getElementById('conteudo').style.marginLeft='0px';
+            }
+        </script>
+
+        <main id="conteudo">
+            <div class="cabecalho"><img src="ps2.png"><h2>Produtos</h2></div><br>
+
+            <div class="produtos">
+                <img src="play2.jpg" class="imgprod"><h2>Playstation 2</h2><input type="button" value="Comprar" class="botao">
+            </div>
+            
+            <div class="produtos">
+                <img src="jogo1.jpg" class="imgprod"><h2>Naruto SUN5</h2><input type="button" value="Comprar" class="botao">
+            </div>
+
+            <div class="produtos">
+                <img src="jogo2.jpg" class="imgprod"><h2>GTA San Andreas</h2><input type="button" value="Comprar" class="botao">
+            </div>
+
+            <div class="produtos">
+                <img src="jogo3.png" class="imgprod"><h2>Pes 2013</h2><input type="button" value="Comprar" class="botao">
+            </div>
+
+            <div class="produtos">
+                <img src="jogo4.jpg" class="imgprod"><h2>Crash Nitro Kart</h2><input type="button" value="Comprar" class="botao">
+            </div>
+
+            <div class="produtos">
+                <img src="jogo5.jpg" class="imgprod"><h2>Need For Speed Carbon</h2><input type="button" value="Comprar" class="botao">
+            </div>
+
+            <div class="produtos">
+                <img src="jogo6.jpg" class="imgprod"><h2>Resident Evil 4</h2><input type="button" value="Comprar" class="botao">
+            </div>
+
+            <div class="produtos">
+                <img src="jogo7.jpg" class="imgprod"><h2>Tomb Raider</h2><input type="button" value="Comprar" class="botao">
+            </div>
+
+            <center><div class= "rodape">@karllonkeysson</div></center>
+        </main>    
+
+        </body>
+        
