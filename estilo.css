@@ -1,0 +1,19 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+input{
+    color: brown;
+    background-color: burlywood;
+}
+
+textarea{
+    color: brown;
+    background-color: burlywood;
+}
+select{
+    color: brown;
+    background-color: burlywood;
+}
+
